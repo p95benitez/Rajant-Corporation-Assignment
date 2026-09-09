@@ -1,0 +1,29 @@
+[INFO] Starting provisioning
+
+[INFO] Device: jetson-001
+
+[INFO] Detecting device...
+
+[INFO] Device detected: /dev/ttyUSB0
+
+[INFO] Checking network...
+
+[INFO] Network: OK
+
+[INFO] Flashing OS...
+
+[INFO] Flash complete
+
+[ERROR] Application installation failed
+
+[INFO] Configuring device...
+
+[ERROR] Configuration failed
+
+[INFO] Checking disk space...
+
+[ERROR] Disk space: 91% used
+
+[ERROR] Service failed to start
+
+[INFO] Provisioning complete
