@@ -1,31 +1,3 @@
-# -----------------------------------------------------------------------------
-# Author: Patricio Benitez Palermo, p95benite@gmail.com
-# Date: September 9, 2026
-# 
-# Program: provision_check.py
-#
-# Purpose:
-#   Reads a Raspberry Pi or Jetson provisioning log file and prints a summary
-#   showing the device name, pass/fail status, number of errors, and error details.
-#
-# Input:
-#   A provisioning log file provided as a command-line argument.
-#   Optional --json argument to display the results in JSON format.
-#
-# Output:
-#   - Device name
-#   - PASSED or FAILED status
-#   - Error count
-#   - List of errors
-#
-# Additional Features:
-#   - Returns exit code 0 for success and 1 for failure.
-#   - Supports JSON output using the --json option.
-#   - Handles missing files and invalid log files without crashing.
-#
-# -----------------------------------------------------------------------------
-
-
 import sys
 import json
 
