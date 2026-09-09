@@ -4,6 +4,20 @@ A simple Python command-line tool developed as part of an internship application
 ## Purpose
 This program reads a Raspberry Pi or Jetson provisioning log file and prints a summary showing the device name, pass/fail status, number of errors, and error details for troubleshooting.
 
+### Input:
+- A provisioning log file provided as a command-line argument.
+- Optional --json argument to display the results in JSON format.
+### Output:
+- Device name
+- PASSED or FAILED status
+- Error count
+- Last successful step before the first error
+- List of errors
+### Additional Features:
+- Returns exit code 0 for success and 1 for failure.
+- Supports JSON output using the --json option.
+- Handles missing files and invalid log files without crashing.
+
 ## How to run it
 Run the program from a terminal or command prompt and provide the log file as a command-line argument.
     python provision_check.py <log_file> [--json]
